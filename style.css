@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background: indigo;
+    color: lavender;
+    font-family: sans-serif;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 24px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    transition: all .5s;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: solid 4px deeppink;
+    transition: all .5s;
+}
+
+img:hover {
+    border: solid 8px deeppink;
+}
